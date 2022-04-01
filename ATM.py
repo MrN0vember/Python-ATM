@@ -5,5 +5,10 @@ class BankAccount:
         self.pin = pin
         self.balance = balance
 
-    
+    def pin_verification(pin):
+        if self.pin == pin:
+            retrun True
+        else:
+            return False
+            
     
