@@ -5,26 +5,37 @@ class BankAccount:
         self.pin = pin
         self.balance = balance
 
-    def pin_verification(pin):
+    def pin_verification(self,pin):
         if self.pin == pin:
-            retrun True
+            return True
         else:
             return False
 
-    def login():
-        attempts = 0
-        while attempts < 4:
-            pin = input("Please enter your 4 digit PIN: ")
-            if pin_verification(pin):
-                print("PIN Accepeted")
-                return True
-            else:
-                print("Inccorect PIN")
-                attempts += 1
-        print("Too many inccorect. Please contact your bank")
-        return False
+    def account_details(self):
+        print(f'Account Number: {self.account_number}')
+        print(f'Account Holder: {self.customer_name}')
+
+    def check_balance(self):
+        return self.balance
+
+    def deposit(self,ammount):
+        self.balance += ammount
+
+    def withdraw(self,ammount):
+            self.balance += ammount
+
+    
+#Account Creation
+
+Accounts = {}
+
+def account_number_gen()
+
+
 
         
+            
+
             
 
 
