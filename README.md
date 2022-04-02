@@ -6,7 +6,7 @@ The basic functional requirements for an ATM should be encapulated with your cla
 * Deposit Funds
 * Withdraw Funds
 
-## Instructions to run programme:
-Clone github repo
-On local machine use CLI and navigate to repo
-From CLI run > python atm.py
+### Instructions to run programme:
+* Clone github repo
+* On local machine use CLI and navigate to repo
+* From CLI run: python atm.py
